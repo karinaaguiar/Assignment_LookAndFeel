@@ -27,7 +27,6 @@ body {
 
 ul {
     margin: 0;
-    padding: 0;
 }
 
 /* Header */
@@ -58,6 +57,10 @@ header {
 
         header #branding h1 {
             margin: 0;
+        }
+
+        header #branding a {
+            text-transform: capitalize;
         }
 
     header nav {
@@ -118,10 +121,10 @@ aside#sidebar {
     padding: 5px;
 }
 
-aside#sidebar input, aside#sidebar textarea {
-    width: 90%;
-    padding: 5px;
-}
+    aside#sidebar input, aside#sidebar textarea {
+        width: 90%;
+        padding: 5px;
+    }
 
 /* Categories */
 .body_content .category_contents {
@@ -195,15 +198,15 @@ aside#sidebar input, aside#sidebar textarea {
     padding-top: 0.5em;
 }
 
-.c_div_prod .c_prod_img {
-    width: 100%;
-    height: auto;
-}
+    .c_div_prod .c_prod_img {
+        width: 100%;
+        max-height: 100%;
+    }
 
-.c_div_prod .c_prod_name {
-    display: block;
-    text-align: center;
-}
+    .c_div_prod .c_prod_name {
+        display: block;
+        text-align: center;
+    }
 
 /* Slider */
 .home_slider {
@@ -261,10 +264,10 @@ aside#sidebar input, aside#sidebar textarea {
     left: 0;
 }
 
-.slide_btn_next:hover, .slide_btn_prev:hover {
-    background-color: #80808099;
-    color: black;
-}
+    .slide_btn_next:hover, .slide_btn_prev:hover {
+        background-color: #80808099;
+        color: black;
+    }
 
 /* Media query */
 @media(max-width: 768px) {
