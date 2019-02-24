@@ -105,6 +105,13 @@ header {
         padding: 10px;
     }
 
+    #boxes .section {
+        float: left;
+        text-align: center;
+        width: 45%;
+        padding: 15px;
+    }
+
 /* Footer */
 footer {
     padding: 20px;
