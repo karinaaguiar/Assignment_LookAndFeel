@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
-
 <body>
     <header>
         <div class="container">
@@ -16,7 +15,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="india.html">India</a></li>
+                    <li><a href="india.html">India</a></li>              
                     <li><a href="venezuela.html">Venezuela</a></li>
                     <li class="current"><a href="vietnam.html">Vietnam</a></li>
                     <li><a href="about.html">About</a></li>
@@ -24,25 +23,309 @@
             </nav>
         </div>
     </header>
-
     <section>
         <div class="container">
-            <h1 class="page-title">
-                Vietnam
-            </h1>
-            <!--<section id="newsletter">
-                <div class="container">
-                    <h1>Get Our Newsletter</h1>
-                    <form action="">
-                        <input type="email" placeholder="Enter your email address ...">
-                        <button type="submit" class="button_1">Subscribe</button>
-                    </form>
-                </div>
-            </section>-->
+            <div class="category_container" id="content_food">
+                <span class="c_heading">
+                    Traditional Food
+                </span>
+            </div>
+            <div class="category_container" id="content_places">
+                <span class="c_heading">
+                    Best Places to Visit
+                </span>
+            </div>
         </div>
     </section>
+    <section>
+        <div class="body_content">
+            <div class="home_slider">
+                <div class="my_slide" data-header="#content_food" data-info="#div_food">
+                    <img src="img/vietnam_slide_food.jpg" class="slider_image">
+                    <span class="slider_caption">
+                        Traditional Food
+                    </span>
+                </div>
+                <div class="my_slide" data-header="#content_places" data-info="#div_places">
+                    <img src="img/vietnam_slide_places.jpg" class="slider_image">
+                    <span class="slider_caption">
+                        Best Places to Visit
+                    </span>
+                </div>
+                <!-- Controls -->
+                <span class="slide_btn_prev">
+                    &#10094;
+                </span>
+                <span class="slide_btn_next">
+                    &#10095;
+                </span>
+            </div>
+            <div class="category_contents">
+                <div class="category_container" id="div_food">
+                    <div class="container">
+                        <ul class="c_ul_ques">
+                            <li class="c_li_ques">
+                                <div class="c_div_question">
+                                    <span class="c_question">Vietnamese Noodle Soup (Pho)</span>
+                                    <span class="c_answer">
+                                        Pho is essentially Vietnam’s signature dish, comprising rice noodles in a flavourful soup with meat and various greens, plus a side of nuoc cham (fermented fish) or chilli sauce. A basic bowl contains tai (beef slices), bo vien (beef meatballs) or nam (beef flank), topped with bean sprouts, lime wedges, and fresh herbs such as basil, mint, cilantro, and onions. Depending on the restaurant or roadside stall, you can also opt for more exotic ingredients such as gan (beef tendon), sach (thinly-sliced pig stomach), and ve don (flank with cartilage).
+                                        <br /><br />
+                                        Typically eaten for breakfast, pho is priced between $2 and $3 at a local restaurant or street market in Vietnam.
+                                </div>
+                            </li>
+                            <li class="c_li_ques">
+                                <div class="c_div_question">
+                                    <span class="c_question">Crispy Pancake (Banh Xeo)</span>
+                                    <span class="c_answer">
+                                        Similar to a crepe or pancake, banh xeo is made of rice flour, coconut milk, and turmeric, which you can fill it with vermicelli noodles, chicken, pork or beef slices, shrimps, sliced onions, beansprouts, and mushrooms. Most roadside stalls, local markets, and restaurants sell a platter of banh xeo for about $1 to $1.5, which usually comes with a side of fresh lettuce or rice papers.
+                                        <br /><br />
+                                        Eat like a local by wrapping your banh xeo in mustard leaf, lettuce leaves or rice papers together with nem lui (lemongrass pork skewers), mint leaves, basil, before dipping in fermented peanut sauce.
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container">
+                        <ul class="c_ul_products">
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_food_1.jpg" class="c_prod_img" alt="Pho">
+                                    <span class="c_prod_name">
+                                        Pho served with bean sprouts and fresh herbs
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_food_2.jpg" class="c_prod_img" alt="Pho">
+                                    <span class="c_prod_name">
+                                        Pho with beef meatballs and flank
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_food_3.jpg" class="c_prod_img" alt="Banh Xeo">
+                                    <span class="c_prod_name">
+                                        Banh xeo served with fish sauce and fresh herbs 
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_food_4.jpg" class="c_prod_img" alt="Banh Xeo">
+                                    <span class="c_prod_name">
+                                        Banh xeo with pork, shrimp, and mushroom
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container">
+                        <ul class="c_ul_ques">
+                            <li class="c_li_ques">
+                                <div class="c_div_question">
+                                    <span class="c_question">French-Vietnamese sandwich (Banh Mi)</span>
+                                    <span class="c_answer">
+                                        Banh mi is a unique French-Vietnamese sandwich that’s great for when you’re in need of a quick meal. Priced between $1 and $1.5, it consists of a toasted baguette sandwich, pickled vegetables, pate, butter, soy sauce, cilantro, chillies, and hot peppers.
+                                        <br /><br />
+                                        Most banh mi sellers also offer a wide range of meat fillings, including heo quay (roasted pork belly), trung op la (fried egg), thit nuong (grilled pork loin), cha ca (fried fish with turmeric and dill), cha lua (boiled sausages), xa xiu (Chinese barbecued pork), and thit ga (poached chicken).
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_ques">
+                                <div class="c_div_question">
+                                    <span class="c_question">Vietnamese Fresh Spring Rolls (Goi Cuon) </span>
+                                    <span class="c_answer">
+                                        Goi cuon (Vietnamese fresh spring rolls) consist of thin vermicelli noodles, pork slices, shrimp, basil, and lettuce, all tightly wrapped in translucent banh trang (rice papers). Due to its subtle flavour, goi cuon is usually dipped into ground chillies and a hoisin-based dipping sauce topped with crushed peanuts.
+                                        <br /><br />
+                                        This popular snack or appetiser is also a healthier alternative to cha gio, which is a deep-fried egg roll made with a combination of mung bean noodles, minced pork, and various spices.
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container">
+                        <ul class="c_ul_products">
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_food_5.jpg" class="c_prod_img" alt="Banh Mi">
+                                    <span class="c_prod_name">
+                                        Banh Mi with griled pork loin
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_food_6.jpg" class="c_prod_img" alt="Banh Mi">
+                                    <span class="c_prod_name">
+                                        Banh Mi with boiled sausages
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_food_7.jpg" class="c_prod_img" alt="Goi Cuon">
+                                    <span class="c_prod_name">
+                                        Goi Cuon served with peanut dipping sauce
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_food_8.jpg" class="c_prod_img" alt="Goi Cuon">
+                                    <span class="c_prod_name">
+                                        Goi Cuon with shrimp, pork ad rice noodle
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="category_container" id="div_places">
+                    <div class="container">
+                        <ul class="c_ul_ques">
+                            <li class="c_li_ques">
+                                <div class="c_div_question">
+                                    <span class="c_question">Ha Long Bay</span>
+                                    <span class="c_answer">
+                                        Ha Long Bay, in northern Vietnam, is dotted with 1,600 limestone islands and islets and covers an area of over 1,500sqkm. Declared a UNESCO World Heritage Site in 1994, for many visitors, this surrealistic place is like something right out of a movie. Approximately a four-hour drive from downtown Hanoi, the area is also home to different kinds of limestone caves such as phreatic caves, karstic foot caves and marine notch caves. Activities include exploring the many cave formations, kayaking around rocky outcrops and watching the wildlife.
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_ques">
+                                <div class="c_div_question">
+                                    <span class="c_question">Phong Nha - Ke Bang National Park</span>
+                                    <span class="c_answer">
+                                        Phong Nha-Ke Bang National Park is a popular option for adventurous travellers looking to explore its many limestone caves and grottoes. Set within the Quang Binh Province, it’s home to the world’s largest cave, Son Doong, with sections reaching up to 200m in height, as well as Paradise Cave, which boasts spectacular shapes of limestone stalactites and stalagmites. Entrance to Phong Nha-Ke Bang National Park costs $5, plus additional fees to enter the caves. Hiking, mountain-biking, and cave expeditions are regularly organised by tour operators in Vietnam
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container"></div>
+                    <div class="container">
+                        <ul class="c_ul_products">
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_places_1.jpg" class="c_prod_img" alt="Ha Long Bay">
+                                    <span class="c_prod_name">
+                                        Ha Long Bay
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_places_2.jpg" class="c_prod_img" alt="Ha Long Bay">
+                                    <span class="c_prod_name">
+                                        Ha Long Bay
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_places_3.jpg" class="c_prod_img" alt="Phong Nha Ke Bang">
+                                    <span class="c_prod_name">
+                                        Phong Nha Ke Bang
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_places_4.jpg" class="c_prod_img" alt="Phong Nha Ke Bang">
+                                    <span class="c_prod_name">
+                                        Phong Nha Ke Bang
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container">
+                        <ul class="c_ul_ques">
+                            <li class="c_li_ques">
+                                <div class="c_div_question">
+                                    <span class="c_question">Hoi An Ancient Town</span>
+                                    <span class="c_answer">
+                                        Hoi An Ancient Town offers a breathtaking mix of ornate Chinese temples, a Japanese-designed bridge, wooden shop-houses, French-colonial houses, and old canals. Listed as a UNESCO World Heritage Site in 1999, most of the old shops have been carefully converted to modern businesses aimed at tourists including countless tailors, souvenir shops, art galleries, restaurants and cafés. An entrance fee of VND 120,000 is required for foreign tourists and VND 80,000 for locals - each ticket is valid for 10 days and covers entrance to entrance to Hoi An Ancient Town, six points of interest, and street entertainment (folk dancing, singing, and traditional games).
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_ques">
+                                <div class="c_div_question">
+                                    <span class="c_question">My Son Sanctuary</span>
+                                    <span class="c_answer">
+                                        My Son Hindu Sanctuary, a UNESCO World Heritage Site, is a great sample of the ancient Champa civilization located in the southern part of Vietnam. It was an independent state from around the 2nd to the 17th century, at which time it was occupied by Vietnam. The impressive Hindu-themed ruins feature many beautiful stone sculptures, temples and towers in tropical jungle surroundings.My Son was also a political centre and a royal burial ground and the complex consists of more than 70 structures devoted to Hindu gods and goddesses and the most noticeable one, Shiva, was considered the protector of the Champa’s kings. Their skilful use of red bricks and sandstone is remarkable.
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container"></div>
+                    <div class="container">
+                        <ul class="c_ul_products">
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_places_5.jpg" class="c_prod_img" alt="Hoi An">
+                                    <span class="c_prod_name">
+                                        Hoi An
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_places_6.jpg" class="c_prod_img" alt="Hoi An">
+                                    <span class="c_prod_name">
+                                        Hoi An
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_places_7.jpg" class="c_prod_img" alt="My Son">
+                                    <span class="c_prod_name">
+                                        My Son
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c_li_product">
+                                <div class="c_div_prod">
+                                    <img src="img/prod_vietnam_places_8.png" class="c_prod_img" alt="My Son">
+                                    <span class="c_prod_name">
+                                        My Son
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <aside id="sidebar">
+        <div class="dark">
+            <h3>Contact Us</h3>
+            <form action="" class="contact">
+                <div>
+                    <label>Name</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Email Address</label>
+                    <input type="email">
+                </div>
+                <div>
+                    <label>Message</label>
+                    <textarea placeholder="Your message ..."></textarea>
+                </div>
+                <button class="button_1" type="submit">Send</button>
+            </form>
+        </div>
+    </aside> -->
     <footer>
         <p>Culture Network, Copyright &copy; 2019</p>
     </footer>
+    <script type="text/javascript" src="js/jquery3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/slideshow.js"></script>
 </body>
 </html>
+
